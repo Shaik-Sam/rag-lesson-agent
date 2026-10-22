@@ -1,0 +1,22 @@
+{
+  "run_id": "20261021-053422-introduction-to-rag-retrieval-",
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "status": "SHIPPED",
+  "attempts_used": 2,
+  "max_retries": 2,
+  "final_attempt": 2,
+  "injected_error": "RAG was invented by OpenAI in 2015, and it guarantees 100% correct answers every time.",
+  "active_guidelines_used": [
+    "Write at a reading grade of 7 or lower. Prefer words with one or two syllables. Avoid long, formal words.",
+    "Keep every sentence under 20 words and the average under 12 words. One idea per sentence.",
+    "Do not use formal words such as leverage, utilize, comprehensive, robust or furthermore. Do not use English idioms.",
+    "Include the section A Worked Example with one real question written inside quotes, followed through every step.",
+    "Build the worked example around an Indian college student or a local shop, for example exam fees, scholarships or WhatsApp.",
+    "Define each technical term in the same sentence where it first appears, using words like 'is called', 'means' or 'stands for'.",
+    "Use exactly these H2 headings in order: What Is RAG?, Why Do We Need RAG?, How RAG Works, A Worked Example, Where RAG Can Go Wrong, Quick Recap, Key Words.",
+    "Explain every idea before you use it. Use words like first, then and so to connect steps.",
+    "Never refer to other lessons or outside material. Assume the learner knows nothing.",
+    "Keep the lesson between 650 and 1000 words."
+  ],
+  "promoted_guidelines": []
+}

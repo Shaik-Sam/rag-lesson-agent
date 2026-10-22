@@ -1,0 +1,24 @@
+{
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "facts": [
+    {"id": "F1", "statement": "RAG stands for Retrieval-Augmented Generation. It means finding useful information first (retrieval), adding it to the question (augmentation), and then letting a large language model write the answer (generation)."},
+    {"id": "F2", "statement": "A large language model (LLM) learns from a fixed set of text up to a cut-off date. It does not know newer events and does not know private documents it never saw."},
+    {"id": "F3", "statement": "When an LLM lacks knowledge it can produce a confident but wrong or made-up answer. This is called a hallucination."},
+    {"id": "F4", "statement": "The RAG idea was published in 2020 by researchers at Facebook AI Research (now Meta), led by Patrick Lewis."},
+    {"id": "F5", "statement": "Preparing documents (done once, or again when documents change): split documents into chunks, convert each chunk into an embedding (a list of numbers that captures meaning), and store the embeddings in a vector database."},
+    {"id": "F6", "statement": "Answering a question: convert the question into an embedding, search the vector database for the most similar chunks (retrieval), put the question and those chunks into the prompt (augmentation), and let the LLM write the answer (generation)."},
+    {"id": "F7", "statement": "RAG does not retrain or change the LLM. To update knowledge, you update the documents. Fine-tuning is a different method that trains the model again on new data, which is slower and costlier."},
+    {"id": "F8", "statement": "RAG can show the source documents behind an answer, so a person can check it."},
+    {"id": "F9", "statement": "RAG reduces hallucinations but cannot remove them completely. Wrong retrieval, old or wrong documents, and extra cost or delay are known limits."}
+  ],
+  "forbidden_patterns": [
+    {"pattern": "\\bguarantee[sd]?\\b", "reason": "RAG cannot guarantee correct answers; it only reduces mistakes."},
+    {"pattern": "\\b(completely|fully|totally)\\s+(remove[sd]?|eliminate[sd]?|prevent[s]?)\\b[^.]*\\b(hallucinat|mistake|wrong|error)", "reason": "RAG reduces errors but does not remove them completely."},
+    {"pattern": "\\b(eliminate[sd]?|end[s]?)\\s+(all\\s+)?(hallucinations?|mistakes|errors)\\b", "reason": "RAG does not eliminate hallucinations."},
+    {"pattern": "\\b(invented|created|developed|introduced|built|launched|founded)\\s+by\\s+(?!Facebook|Meta|researchers)\\w+", "reason": "The RAG idea came from Facebook AI Research (Meta) in 2020, not from another company."},
+    {"pattern": "\\bRAG\\b[^.]*\\b(retrains?|re-trains?|changes the model|updates the model|trains the model)\\b", "reason": "RAG does not retrain or change the LLM."},
+    {"pattern": "\\bRAG\\s+(is|are)\\s+(the\\s+same\\s+as|just)\\s+fine-tuning\\b", "reason": "RAG and fine-tuning are different methods."}
+  ],
+  "allowed_years": ["2020"],
+  "allowed_percentages": []
+}

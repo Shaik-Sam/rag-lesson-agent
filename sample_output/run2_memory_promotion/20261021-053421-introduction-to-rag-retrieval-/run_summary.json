@@ -1,0 +1,22 @@
+{
+  "run_id": "20261021-053421-introduction-to-rag-retrieval-",
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "status": "SHIPPED",
+  "attempts_used": 3,
+  "max_retries": 2,
+  "final_attempt": 3,
+  "injected_error": null,
+  "active_guidelines_used": [],
+  "promoted_guidelines": [
+    "READING_GRADE",
+    "SHORT_SENTENCES",
+    "SIMPLE_VOCABULARY",
+    "WORKED_EXAMPLE",
+    "EXAMPLE_RELATABLE",
+    "JARGON_DEFINED",
+    "SECTION_ORDER",
+    "FLOW_COHERENT",
+    "STANDALONE",
+    "LENGTH_WITHIN_RANGE"
+  ]
+}

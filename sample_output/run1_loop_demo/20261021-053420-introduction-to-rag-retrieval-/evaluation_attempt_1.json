@@ -1,0 +1,132 @@
+{
+  "attempt": 1,
+  "passed": false,
+  "failed_ids": [
+    "READING_GRADE",
+    "SHORT_SENTENCES",
+    "SIMPLE_VOCABULARY",
+    "WORKED_EXAMPLE",
+    "EXAMPLE_RELATABLE",
+    "JARGON_DEFINED",
+    "SECTION_ORDER",
+    "FLOW_COHERENT",
+    "STANDALONE",
+    "LENGTH_WITHIN_RANGE"
+  ],
+  "word_count": 268,
+  "reading_grade": 21.88,
+  "results": [
+    {
+      "id": "FACT_SUPPORTED",
+      "passed": true,
+      "reason": "Every statement matches the reference facts.",
+      "evidence": []
+    },
+    {
+      "id": "NO_FORBIDDEN_CLAIMS",
+      "passed": true,
+      "reason": "No false claims or invented numbers found.",
+      "evidence": []
+    },
+    {
+      "id": "READING_GRADE",
+      "passed": false,
+      "reason": "Reading grade is 21.9, above the limit of 7.0.",
+      "evidence": [
+        "Retrieval-Augmented Generation (RAG) is a comprehensive architectural paradigm that fundamentally enhances the capabilities of large lang...",
+        "Large language models frequently exhibit hallucination, which is a phenomenon where the model generates plausible-sounding but factually ...",
+        "Subsequently, when a user submits a query, the query is embedded using the same model, the vector database returns the top-k most similar..."
+      ]
+    },
+    {
+      "id": "SHORT_SENTENCES",
+      "passed": false,
+      "reason": "Average sentence length is 38.3 words (limit 15). 5 sentence(s) are longer than 28 words.",
+      "evidence": [
+        "Retrieval-Augmented Generation (RAG) is a comprehensive architectural paradigm that fundamentally enhances the capabilities of large lang...",
+        "In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM can utilize relevant chunks within the pro...",
+        "Large language models frequently exhibit hallucination, which is a phenomenon where the model generates plausible-sounding but factually ..."
+      ]
+    },
+    {
+      "id": "SIMPLE_VOCABULARY",
+      "passed": false,
+      "reason": "Hard words or idioms were used.",
+      "evidence": [
+        "comprehensive",
+        "fundamentally",
+        "furthermore",
+        "in a nutshell",
+        "leverages",
+        "paradigm",
+        "seamlessly",
+        "silver bullet",
+        "subsequently",
+        "thereby",
+        "utilize"
+      ]
+    },
+    {
+      "id": "WORKED_EXAMPLE",
+      "passed": false,
+      "reason": "There is no worked example section.",
+      "evidence": []
+    },
+    {
+      "id": "EXAMPLE_RELATABLE",
+      "passed": false,
+      "reason": "The example is generic and does not use a situation familiar to an Indian learner.",
+      "evidence": [
+        ""
+      ]
+    },
+    {
+      "id": "JARGON_DEFINED",
+      "passed": false,
+      "reason": "Some technical terms are used without a definition.",
+      "evidence": [
+        "LLM: first used in \"In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM ca...\"",
+        "embedding: first used in \"In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM ca...\"",
+        "vector: first used in \"In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM ca...\"",
+        "vector database: first used in \"In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM ca...\"",
+        "chunk: first used in \"In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM ca...\"",
+        "hallucination: first used in \"Large language models frequently exhibit hallucination, which is a phenomenon where the model gen...\"",
+        "prompt: first used in \"In a nutshell, RAG leverages the embedding of documents into a vector database so that the LLM ca...\""
+      ]
+    },
+    {
+      "id": "KEY_CONCEPTS_COVERED",
+      "passed": true,
+      "reason": "All key concepts are covered.",
+      "evidence": []
+    },
+    {
+      "id": "SECTION_ORDER",
+      "passed": false,
+      "reason": "Required sections are missing.",
+      "evidence": [
+        "A Worked Example",
+        "Quick Recap",
+        "Key Words"
+      ]
+    },
+    {
+      "id": "FLOW_COHERENT",
+      "passed": false,
+      "reason": "The lesson jumps ahead and skips the step-by-step build-up.",
+      "evidence": []
+    },
+    {
+      "id": "STANDALONE",
+      "passed": false,
+      "reason": "The lesson is too short to teach a learner from zero.",
+      "evidence": []
+    },
+    {
+      "id": "LENGTH_WITHIN_RANGE",
+      "passed": false,
+      "reason": "The lesson has 268 words, outside the range 550 to 1100.",
+      "evidence": []
+    }
+  ]
+}

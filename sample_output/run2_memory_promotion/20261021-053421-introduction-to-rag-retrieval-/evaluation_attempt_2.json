@@ -1,0 +1,94 @@
+{
+  "attempt": 2,
+  "passed": false,
+  "failed_ids": [
+    "EXAMPLE_RELATABLE",
+    "JARGON_DEFINED"
+  ],
+  "word_count": 907,
+  "reading_grade": 4.05,
+  "results": [
+    {
+      "id": "FACT_SUPPORTED",
+      "passed": true,
+      "reason": "Every statement matches the reference facts.",
+      "evidence": []
+    },
+    {
+      "id": "NO_FORBIDDEN_CLAIMS",
+      "passed": true,
+      "reason": "No false claims or invented numbers found.",
+      "evidence": []
+    },
+    {
+      "id": "READING_GRADE",
+      "passed": true,
+      "reason": "Reading grade is 4.1, within the limit of 7.0.",
+      "evidence": []
+    },
+    {
+      "id": "SHORT_SENTENCES",
+      "passed": true,
+      "reason": "Average sentence length is 8.7 words.",
+      "evidence": []
+    },
+    {
+      "id": "SIMPLE_VOCABULARY",
+      "passed": true,
+      "reason": "No hard words or idioms found.",
+      "evidence": []
+    },
+    {
+      "id": "WORKED_EXAMPLE",
+      "passed": true,
+      "reason": "A concrete worked example with a quoted question is present.",
+      "evidence": []
+    },
+    {
+      "id": "EXAMPLE_RELATABLE",
+      "passed": false,
+      "reason": "The example is generic and does not use a situation familiar to an Indian learner.",
+      "evidence": [
+        "let us follow rag inside a small app. a company made a help chatbot for its customers. the company put its rule book,..."
+      ]
+    },
+    {
+      "id": "JARGON_DEFINED",
+      "passed": false,
+      "reason": "Some technical terms are used without a definition.",
+      "evidence": [
+        "fine-tuning: first used in \"You could use fine-tuning instead.\""
+      ]
+    },
+    {
+      "id": "KEY_CONCEPTS_COVERED",
+      "passed": true,
+      "reason": "All key concepts are covered.",
+      "evidence": []
+    },
+    {
+      "id": "SECTION_ORDER",
+      "passed": true,
+      "reason": "All sections are present in the correct order.",
+      "evidence": []
+    },
+    {
+      "id": "FLOW_COHERENT",
+      "passed": true,
+      "reason": "Ideas are introduced in a logical order.",
+      "evidence": []
+    },
+    {
+      "id": "STANDALONE",
+      "passed": true,
+      "reason": "A learner with no background can follow the lesson.",
+      "evidence": []
+    },
+    {
+      "id": "LENGTH_WITHIN_RANGE",
+      "passed": true,
+      "reason": "The lesson has 907 words.",
+      "evidence": []
+    }
+  ]
+}

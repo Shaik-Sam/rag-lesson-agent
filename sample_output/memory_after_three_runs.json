@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "run_id": "20261021-053420-introduction-to-rag-retrieval-",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "status": "SHIPPED",
+      "attempts": 3,
+      "first_attempt_failed": [
+        "READING_GRADE",
+        "SHORT_SENTENCES",
+        "SIMPLE_VOCABULARY",
+        "WORKED_EXAMPLE",
+        "EXAMPLE_RELATABLE",
+        "JARGON_DEFINED",
+        "SECTION_ORDER",
+        "FLOW_COHERENT",
+        "STANDALONE",
+        "LENGTH_WITHIN_RANGE"
+      ],
+      "promoted_guidelines": []
+    },
+    {
+      "run_id": "20261021-053421-introduction-to-rag-retrieval-",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "status": "SHIPPED",
+      "attempts": 3,
+      "first_attempt_failed": [
+        "READING_GRADE",
+        "SHORT_SENTENCES",
+        "SIMPLE_VOCABULARY",
+        "WORKED_EXAMPLE",
+        "EXAMPLE_RELATABLE",
+        "JARGON_DEFINED",
+        "SECTION_ORDER",
+        "FLOW_COHERENT",
+        "STANDALONE",
+        "LENGTH_WITHIN_RANGE"
+      ],
+      "promoted_guidelines": [
+        "READING_GRADE",
+        "SHORT_SENTENCES",
+        "SIMPLE_VOCABULARY",
+        "WORKED_EXAMPLE",
+        "EXAMPLE_RELATABLE",
+        "JARGON_DEFINED",
+        "SECTION_ORDER",
+        "FLOW_COHERENT",
+        "STANDALONE",
+        "LENGTH_WITHIN_RANGE"
+      ]
+    },
+    {
+      "run_id": "20261021-053422-introduction-to-rag-retrieval-",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "status": "SHIPPED",
+      "attempts": 2,
+      "first_attempt_failed": [
+        "FACT_SUPPORTED",
+        "NO_FORBIDDEN_CLAIMS"
+      ],
+      "promoted_guidelines": []
+    }
+  ],
+  "first_attempt_failures": {
+    "READING_GRADE": 2,
+    "SHORT_SENTENCES": 2,
+    "SIMPLE_VOCABULARY": 2,
+    "WORKED_EXAMPLE": 2,
+    "EXAMPLE_RELATABLE": 2,
+    "JARGON_DEFINED": 2,
+    "SECTION_ORDER": 2,
+    "FLOW_COHERENT": 2,
+    "STANDALONE": 2,
+    "LENGTH_WITHIN_RANGE": 2,
+    "FACT_SUPPORTED": 1,
+    "NO_FORBIDDEN_CLAIMS": 1
+  },
+  "total_failures": {
+    "EXAMPLE_RELATABLE": 2,
+    "FLOW_COHERENT": 2,
+    "JARGON_DEFINED": 2,
+    "LENGTH_WITHIN_RANGE": 2,
+    "READING_GRADE": 2,
+    "SECTION_ORDER": 2,
+    "SHORT_SENTENCES": 2,
+    "SIMPLE_VOCABULARY": 2,
+    "STANDALONE": 2,
+    "WORKED_EXAMPLE": 2,
+    "FACT_SUPPORTED": 1,
+    "NO_FORBIDDEN_CLAIMS": 1
+  },
+  "recent_reasons": {
+    "READING_GRADE": [
+      "Reading grade is 21.9, above the limit of 7.0.",
+      "Reading grade is 21.9, above the limit of 7.0."
+    ],
+    "SHORT_SENTENCES": [
+      "Average sentence length is 38.3 words (limit 15). 5 sentence(s) are longer than 28 words.",
+      "Average sentence length is 38.3 words (limit 15). 5 sentence(s) are longer than 28 words."
+    ],
+    "SIMPLE_VOCABULARY": [
+      "Hard words or idioms were used.",
+      "Hard words or idioms were used."
+    ],
+    "WORKED_EXAMPLE": [
+      "There is no worked example section.",
+      "There is no worked example section."
+    ],
+    "EXAMPLE_RELATABLE": [
+      "The example is generic and does not use a situation familiar to an Indian learner.",
+      "The example is generic and does not use a situation familiar to an Indian learner."
+    ],
+    "JARGON_DEFINED": [
+      "Some technical terms are used without a definition.",
+      "Some technical terms are used without a definition."
+    ],
+    "SECTION_ORDER": [
+      "Required sections are missing.",
+      "Required sections are missing."
+    ],
+    "FLOW_COHERENT": [
+      "The lesson jumps ahead and skips the step-by-step build-up.",
+      "The lesson jumps ahead and skips the step-by-step build-up."
+    ],
+    "STANDALONE": [
+      "The lesson is too short to teach a learner from zero.",
+      "The lesson is too short to teach a learner from zero."
+    ],
+    "LENGTH_WITHIN_RANGE": [
+      "The lesson has 268 words, outside the range 550 to 1100.",
+      "The lesson has 268 words, outside the range 550 to 1100."
+    ],
+    "FACT_SUPPORTED": [
+      "The lesson makes a claim that the reference facts do not support."
+    ],
+    "NO_FORBIDDEN_CLAIMS": [
+      "Found a false or unsupported claim."
+    ]
+  },
+  "learned_guidelines": [
+    {
+      "check_id": "READING_GRADE",
+      "text": "Write at a reading grade of 7 or lower. Prefer words with one or two syllables. Avoid long, formal words.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "Reading grade is 21.9, above the limit of 7.0.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "SHORT_SENTENCES",
+      "text": "Keep every sentence under 20 words and the average under 12 words. One idea per sentence.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "Average sentence length is 38.3 words (limit 15). 5 sentence(s) are longer than 28 words.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "SIMPLE_VOCABULARY",
+      "text": "Do not use formal words such as leverage, utilize, comprehensive, robust or furthermore. Do not use English idioms.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "Hard words or idioms were used.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "WORKED_EXAMPLE",
+      "text": "Include the section A Worked Example with one real question written inside quotes, followed through every step.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "There is no worked example section.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "EXAMPLE_RELATABLE",
+      "text": "Build the worked example around an Indian college student or a local shop, for example exam fees, scholarships or WhatsApp.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "The example is generic and does not use a situation familiar to an Indian learner.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "JARGON_DEFINED",
+      "text": "Define each technical term in the same sentence where it first appears, using words like 'is called', 'means' or 'stands for'.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "Some technical terms are used without a definition.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "SECTION_ORDER",
+      "text": "Use exactly these H2 headings in order: What Is RAG?, Why Do We Need RAG?, How RAG Works, A Worked Example, Where RAG Can Go Wrong, Quick Recap, Key Words.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "Required sections are missing.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "FLOW_COHERENT",
+      "text": "Explain every idea before you use it. Use words like first, then and so to connect steps.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "The lesson jumps ahead and skips the step-by-step build-up.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "STANDALONE",
+      "text": "Never refer to other lessons or outside material. Assume the learner knows nothing.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "The lesson is too short to teach a learner from zero.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    },
+    {
+      "check_id": "LENGTH_WITHIN_RANGE",
+      "text": "Keep the lesson between 650 and 1000 words.",
+      "failed_first_attempt_in_runs": 2,
+      "last_reason": "The lesson has 268 words, outside the range 550 to 1100.",
+      "promoted_at": "2026-10-21T05:34:21+00:00"
+    }
+  ],
+  "human_feedback": []
+}

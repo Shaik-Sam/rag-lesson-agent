@@ -1,0 +1,27 @@
+{
+  "min_words": 550,
+  "max_words": 1100,
+  "headings": [
+    {"id": "what", "label": "What Is RAG", "pattern": "^what is"},
+    {"id": "why", "label": "Why Do We Need RAG", "pattern": "^why"},
+    {"id": "how", "label": "How RAG Works", "pattern": "^how"},
+    {"id": "example", "label": "A Worked Example", "pattern": "example"},
+    {"id": "limits", "label": "Where RAG Can Go Wrong", "pattern": "wrong|limit|problem|careful"},
+    {"id": "recap", "label": "Quick Recap", "pattern": "recap|summary"},
+    {"id": "words", "label": "Key Words", "pattern": "key words|glossary"}
+  ],
+  "required_concepts": [
+    {"id": "full_form", "label": "full form of RAG", "any_of": ["retrieval-augmented generation"]},
+    {"id": "problem", "label": "the problem RAG solves (old, private or made-up answers)", "any_of": ["hallucination", "made-up", "old knowledge", "outdated"]},
+    {"id": "documents", "label": "documents as the knowledge source", "any_of": ["document"]},
+    {"id": "chunks", "label": "splitting documents into chunks", "any_of": ["chunk"]},
+    {"id": "embeddings", "label": "embeddings (meaning as numbers)", "any_of": ["embedding"]},
+    {"id": "vector_db", "label": "vector database", "any_of": ["vector database"]},
+    {"id": "retrieval", "label": "retrieval (searching for matching chunks)", "any_of": ["retrieval", "retrieve"]},
+    {"id": "augmentation", "label": "adding chunks to the prompt", "any_of": ["prompt"]},
+    {"id": "generation", "label": "the LLM writing the answer", "any_of": ["generation", "writes the answer"]},
+    {"id": "limits", "label": "limitations of RAG", "any_of": ["not perfect", "go wrong", "wrong chunks", "mistakes"]}
+  ],
+  "example_min_words": 60,
+  "example_min_markers": 2
+}

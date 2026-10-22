@@ -1,0 +1,28 @@
+{
+  "max_reading_grade": 7.0,
+  "max_average_sentence_words": 15,
+  "max_sentence_words": 28,
+  "banned_words": [
+    "leverage", "leverages", "leveraging", "utilize", "utilizes", "utilizing", "utilization",
+    "paradigm", "seamless", "seamlessly", "plethora", "delve", "robust", "comprehensive",
+    "myriad", "facilitate", "facilitates", "furthermore", "moreover", "subsequently",
+    "nevertheless", "aforementioned", "intricate", "ubiquitous", "fundamentally",
+    "synergy", "holistic", "pertaining", "whereby", "thereby", "henceforth", "endeavor"
+  ],
+  "banned_idioms": [
+    "under the hood", "out of the box", "silver bullet", "game changer", "game-changer",
+    "tip of the iceberg", "at the end of the day", "state-of-the-art", "cutting-edge",
+    "in a nutshell", "piece of cake", "ballpark", "low-hanging fruit", "move the needle"
+  ],
+  "jargon_terms": [
+    {"term": "RAG", "pattern": "RAG"},
+    {"term": "LLM", "pattern": "LLMs?"},
+    {"term": "embedding", "pattern": "embeddings?"},
+    {"term": "vector", "pattern": "vectors?"},
+    {"term": "vector database", "pattern": "vector\\s+databases?"},
+    {"term": "chunk", "pattern": "chunks?"},
+    {"term": "hallucination", "pattern": "hallucinations?"},
+    {"term": "prompt", "pattern": "prompts?"},
+    {"term": "fine-tuning", "pattern": "fine-tuning"}
+  ]
+}

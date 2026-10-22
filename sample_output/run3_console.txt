@@ -1,0 +1,47 @@
+Topic: Introduction to RAG (Retrieval-Augmented Generation)
+Model backend: mock | max retries: 2 | inject error: True
+------------------------------------------------------------------------------
+[memory] 10 learned guideline(s) loaded, 10 judge watch-list item(s)
+[plan] building the lesson outline
+[plan] outline ready with 7 section(s)
+[generate] writing attempt 1 of 3
+[generate] DELIBERATE ERROR injected into attempt 1 to test the evaluator
+[generate] attempt 1 has 950 words
+[evaluate] checking attempt 1 against 13 hard pass/fail checkpoints
+    FAIL  FACT_SUPPORTED         The lesson makes a claim that the reference facts do not support.
+    FAIL  NO_FORBIDDEN_CLAIMS    Found a false or unsupported claim.
+    PASS  READING_GRADE          Reading grade is 4.1, within the limit of 7.0.
+    PASS  SHORT_SENTENCES        Average sentence length is 8.8 words.
+    PASS  SIMPLE_VOCABULARY      No hard words or idioms found.
+    PASS  WORKED_EXAMPLE         A concrete worked example with a quoted question is present.
+    PASS  EXAMPLE_RELATABLE      The example uses a familiar student or shop situation.
+    PASS  JARGON_DEFINED         Every technical term is explained where it first appears.
+    PASS  KEY_CONCEPTS_COVERED   All key concepts are covered.
+    PASS  SECTION_ORDER          All sections are present in the correct order.
+    PASS  FLOW_COHERENT          Ideas are introduced in a logical order.
+    PASS  STANDALONE             A learner with no background can follow the lesson.
+    PASS  LENGTH_WITHIN_RANGE    The lesson has 950 words.
+[evaluate] attempt 1: REJECTED (2 failed)
+[revise] sending 2 failure reason(s) back to the generator
+[generate] writing attempt 2 of 3
+[generate] attempt 2 has 935 words
+[evaluate] checking attempt 2 against 13 hard pass/fail checkpoints
+    PASS  FACT_SUPPORTED         Every statement matches the reference facts.
+    PASS  NO_FORBIDDEN_CLAIMS    No false claims or invented numbers found.
+    PASS  READING_GRADE          Reading grade is 4.1, within the limit of 7.0.
+    PASS  SHORT_SENTENCES        Average sentence length is 8.7 words.
+    PASS  SIMPLE_VOCABULARY      No hard words or idioms found.
+    PASS  WORKED_EXAMPLE         A concrete worked example with a quoted question is present.
+    PASS  EXAMPLE_RELATABLE      The example uses a familiar student or shop situation.
+    PASS  JARGON_DEFINED         Every technical term is explained where it first appears.
+    PASS  KEY_CONCEPTS_COVERED   All key concepts are covered.
+    PASS  SECTION_ORDER          All sections are present in the correct order.
+    PASS  FLOW_COHERENT          Ideas are introduced in a logical order.
+    PASS  STANDALONE             A learner with no background can follow the lesson.
+    PASS  LENGTH_WITHIN_RANGE    The lesson has 935 words.
+[evaluate] attempt 2: PASSED all checkpoints
+[ship] lesson cleared the bar and is ready for a human
+[output] files written to sample_output/run3_deliberate_error/20261021-053422-introduction-to-rag-retrieval-
+------------------------------------------------------------------------------
+RESULT: SHIPPED after 2 attempt(s)
+Output folder: sample_output/run3_deliberate_error/20261021-053422-introduction-to-rag-retrieval-

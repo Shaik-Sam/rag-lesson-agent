@@ -1,0 +1,82 @@
+{
+  "audience_notes": "12th-grade learner in India, limited English vocabulary, starts from zero. Use very short sentences, everyday words, and define every technical term the first time it appears.",
+  "analogy": "An open-book exam: the student looks into the book before writing the answer.",
+  "example_idea": "A college help chatbot answers a student's question about the last date to pay the exam fee, first without RAG and then with RAG.",
+  "sections": [
+    {
+      "heading": "What Is RAG?",
+      "goal": "Define LLM, the knowledge gap, and RAG with its full form.",
+      "key_points": [
+        "LLM definition",
+        "LLM knowledge gap",
+        "Retrieval, Augmented, Generation in plain words",
+        "open-book analogy"
+      ]
+    },
+    {
+      "heading": "Why Do We Need RAG?",
+      "goal": "Explain old knowledge, no private knowledge, and hallucination.",
+      "key_points": [
+        "old knowledge",
+        "private data",
+        "hallucination",
+        "fine-tuning is slower and costlier",
+        "sources can be shown"
+      ]
+    },
+    {
+      "heading": "How RAG Works, Step by Step",
+      "goal": "Walk through preparing documents and answering a question.",
+      "key_points": [
+        "chunks",
+        "embeddings and vectors",
+        "vector database",
+        "retrieval",
+        "augmentation of the prompt",
+        "generation"
+      ]
+    },
+    {
+      "heading": "A Worked Example",
+      "goal": "Follow one real question through every step.",
+      "key_points": [
+        "question in quotes",
+        "without RAG",
+        "with RAG",
+        "one more small example"
+      ]
+    },
+    {
+      "heading": "Where RAG Can Go Wrong",
+      "goal": "Be honest about limits.",
+      "key_points": [
+        "wrong chunks",
+        "old documents",
+        "does not remove hallucination",
+        "extra steps"
+      ]
+    },
+    {
+      "heading": "Quick Recap",
+      "goal": "Repeat the main ideas.",
+      "key_points": [
+        "short bullet recap",
+        "Find, Add, Write"
+      ]
+    },
+    {
+      "heading": "Key Words",
+      "goal": "Give a short glossary.",
+      "key_points": [
+        "LLM",
+        "RAG",
+        "Chunk",
+        "Embedding",
+        "Vector database",
+        "Prompt",
+        "Hallucination",
+        "Fine-tuning"
+      ]
+    }
+  ]
+}

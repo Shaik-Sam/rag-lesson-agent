@@ -1,0 +1,87 @@
+{
+  "attempt": 3,
+  "passed": true,
+  "failed_ids": [],
+  "word_count": 935,
+  "reading_grade": 4.07,
+  "results": [
+    {
+      "id": "FACT_SUPPORTED",
+      "passed": true,
+      "reason": "Every statement matches the reference facts.",
+      "evidence": []
+    },
+    {
+      "id": "NO_FORBIDDEN_CLAIMS",
+      "passed": true,
+      "reason": "No false claims or invented numbers found.",
+      "evidence": []
+    },
+    {
+      "id": "READING_GRADE",
+      "passed": true,
+      "reason": "Reading grade is 4.1, within the limit of 7.0.",
+      "evidence": []
+    },
+    {
+      "id": "SHORT_SENTENCES",
+      "passed": true,
+      "reason": "Average sentence length is 8.7 words.",
+      "evidence": []
+    },
+    {
+      "id": "SIMPLE_VOCABULARY",
+      "passed": true,
+      "reason": "No hard words or idioms found.",
+      "evidence": []
+    },
+    {
+      "id": "WORKED_EXAMPLE",
+      "passed": true,
+      "reason": "A concrete worked example with a quoted question is present.",
+      "evidence": []
+    },
+    {
+      "id": "EXAMPLE_RELATABLE",
+      "passed": true,
+      "reason": "The example uses a familiar student or shop situation.",
+      "evidence": []
+    },
+    {
+      "id": "JARGON_DEFINED",
+      "passed": true,
+      "reason": "Every technical term is explained where it first appears.",
+      "evidence": []
+    },
+    {
+      "id": "KEY_CONCEPTS_COVERED",
+      "passed": true,
+      "reason": "All key concepts are covered.",
+      "evidence": []
+    },
+    {
+      "id": "SECTION_ORDER",
+      "passed": true,
+      "reason": "All sections are present in the correct order.",
+      "evidence": []
+    },
+    {
+      "id": "FLOW_COHERENT",
+      "passed": true,
+      "reason": "Ideas are introduced in a logical order.",
+      "evidence": []
+    },
+    {
+      "id": "STANDALONE",
+      "passed": true,
+      "reason": "A learner with no background can follow the lesson.",
+      "evidence": []
+    },
+    {
+      "id": "LENGTH_WITHIN_RANGE",
+      "passed": true,
+      "reason": "The lesson has 935 words.",
+      "evidence": []
+    }
+  ]
+}

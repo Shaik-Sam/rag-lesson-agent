@@ -1,0 +1,42 @@
+[
+  {
+    "attempt": 1,
+    "failed": [
+      {
+        "id": "FACT_SUPPORTED",
+        "name": "Every fact is supported by the reference facts",
+        "dimension": "Accurate and grounded",
+        "reason": "The lesson makes a claim that the reference facts do not support.",
+        "evidence": [
+          "invented by OpenAI",
+          "guarantees",
+          "100%"
+        ]
+      },
+      {
+        "id": "NO_FORBIDDEN_CLAIMS",
+        "name": "No false claims, guarantees or invented numbers",
+        "dimension": "Accurate and grounded",
+        "reason": "Found a false or unsupported claim.",
+        "evidence": [
+          "\"guarantees\" - RAG cannot guarantee correct answers; it only reduces mistakes.",
+          "\"invented by OpenAI\" - The RAG idea came from Facebook AI Research (Meta) in 2020, not from another company.",
+          "The year 2015 is not in the reference facts.",
+          "The number 100% is not in the reference facts."
+        ]
+      }
+    ],
+    "revision_instructions": "1. FACT_SUPPORTED - Every factual statement in the lesson is supported by the reference facts. Nothing is invented, exaggerated or contradicted.\n   Why it failed: The lesson makes a claim that the reference facts do not support.\n   Evidence: invented by OpenAI\n   Evidence: guarantees\n   Evidence: 100%\n   How to fix: Remove or correct any statement that is not in the reference facts. Do not add dates, names or numbers that are not given.\n2. NO_FORBIDDEN_CLAIMS - The lesson contains none of the known false claims, no guarantees of correctness, and no year or percentage outside the approved list.\n   Why it failed: Found a false or unsupported claim.\n   Evidence: \"guarantees\" - RAG cannot guarantee correct answers; it only reduces mistakes.\n   Evidence: \"invented by OpenAI\" - The RAG idea came from Facebook AI Research (Meta) in 2020, not from another company.\n   Evidence: The year 2015 is not in the reference facts.\n   How to fix: Delete the false or unsupported claim. RAG reduces mistakes but never guarantees correct answers. Only the year 2020 may be mentioned.",
+    "outcome_after_retry": {
+      "fixed": [
+        "FACT_SUPPORTED",
+        "NO_FORBIDDEN_CLAIMS"
+      ],
+      "still_failing": [],
+      "newly_failing": [],
+      "words_before": 950,
+      "words_after": 935,
+      "similarity": 0.99
+    }
+  }
+]

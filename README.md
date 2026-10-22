@@ -139,7 +139,6 @@ rag-lesson-agent/
   tests/                       25 automated tests
   docs/
     ARCHITECTURE.md            design choices and trade-offs
-    VIDEO_GUIDE.md             how to run the demo and the video script
   deliverables/                final lesson as .md and .docx
   sample_output/               three recorded runs and the memory they produced
   memory/                      runtime memory is stored here
